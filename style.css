@@ -5,7 +5,11 @@ body {
 
 #about {
     background-image: url(assets/images/pic3.jpg);
-    
+    background-size: cover; /* התמונה מכסה את כל הרקע */
+    background-position: top center; /* מוודא שהחלק העליון יישאר גלוי */
+    background-repeat: no-repeat; /* מונע חזרה של התמונה */
+    height: 100vh;
+    margin: 0;
 }
 
 h1 {
